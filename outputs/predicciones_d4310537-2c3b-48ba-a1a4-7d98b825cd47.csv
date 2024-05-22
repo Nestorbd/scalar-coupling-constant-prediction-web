@@ -1,0 +1,2 @@
+molecule_name,atom_0,atom_1,type,x_dist,y_dist,z_dist,atom_dist,diff_mulliken_charge,diff_XX,diff_YX,diff_ZX,diff_XY,diff_YY,diff_ZY,diff_XZ,diff_YZ,diff_ZZ,scalar_coupling_constant
+egwf,H,23,1JHC,400,361,1444,46.95742752749558,34,20,20,0,57,600,716,48,55,22,3.326351982265765

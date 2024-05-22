@@ -1,0 +1,2 @@
+molecule_name,atom_0,atom_1,type,x_dist,y_dist,z_dist,atom_dist,diff_mulliken_charge,diff_XX,diff_YX,diff_ZX,diff_XY,diff_YY,diff_ZY,diff_XZ,diff_YZ,diff_ZZ,scalar_coupling_constant
+mol 12,H,C,1JHC,14641,109561,233289,597.9055109296116,1242134411189010,11,10,0,101,5653,22,426,7516,424,3.326351982265765

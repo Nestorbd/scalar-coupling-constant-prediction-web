@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de la constante de acoplamiento escalar</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Predicción de la constante de acoplamiento escalar</h1>
+        <form id="moleculesForm">
+            <div id="moleculeFormsContainer">
+                <!-- Formularios de moléculas se agregarán aquí -->
+            </div>
+            <button type="button" id="addMoleculeButton">Añadir Molécula</button>
+            <button type="submit">Obtener Predicciones</button>
+        </form>
+
+        <div id="result">
+            <div id="loader" style="display: none;">Loading...</div>
+            <!-- Aquí se mostrarán los resultados -->
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
