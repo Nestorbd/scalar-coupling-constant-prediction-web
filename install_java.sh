@@ -8,6 +8,3 @@ mv jdk-11 /opt/jdk-11
 # Establecer JAVA_HOME y actualizar PATH
 export JAVA_HOME=/opt/jdk-11
 export PATH=$JAVA_HOME/bin:$PATH
-
-# Verificar instalación de Java
-java -version
