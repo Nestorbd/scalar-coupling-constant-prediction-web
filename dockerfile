@@ -2,7 +2,11 @@
 FROM python:3.11-slim
 
 # Instalar dependencias del sistema
-RUN apt-get update && apt-get install -y openjdk-11-jre-headless wget
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    openjdk-11-jre-headless \
+    wget \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 # Establecer JAVA_HOME y actualizar PATH
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
